@@ -36,11 +36,6 @@ var showSubMenu = function (id) {
    });
 };
 
-/* Hide hover if leave main-menu area*/
-
-
-/* This is magic :) */
-
 $('.top-menu li').mousemove(function () {
    var id = $(this).attr('id');
    $('.main-menu').on('mouseleave', function () {
@@ -64,4 +59,4 @@ $('.top-menu li').mousemove(function () {
          $('.sub-menu').fadeOut(200);
    }; 
 });
-
+/* This is magic :) */
