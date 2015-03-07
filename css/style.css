@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../images/bg.png) repeat;
+ 	width: 100%;
+}
+
+.container {
+	margin: auto;	
+	width: 925px;	
+}
+
+.logo {
+	margin: 0 20px 0 0;
+	padding: 10px 0 0 17px;
+	float: left;
+}
+
+.main-menu {
+	background: url(../images/top-menu.png) no-repeat;
+	height: 50px;
+	margin-left: -12px; 
+	position: relative;
+}
+
+.main-menu ul li {
+	text-transform: uppercase;
+}
+.main-menu ul {
+	padding-top: 15px;
+}
+
+ul li {
+	display: inline;
+	font: 400 14px Tahoma;
+	color: #feffff;
+	margin: 0 10px 0 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 7px;
+
+}
+#settings-sub li, #users-sub li{ 
+	float: left;
+	margin-top: -7px;
+}
+
+#settings-sub, #users-sub {
+	position: absolute;
+	float: right;
+	border: 1px solid #042639;
+	border-radius: 6px;
+	background: url(../images/submenu-bg.png) repeat;
+	width: 782px;
+	height: 19px;
+	top: 17px;
+	left: 151px;
+}
+
+.wrap-sub {
+	position: relative;
+}
+
+.hidden {
+	display: none;
+}
+
+.active {
+	background-image: -webkit-linear-gradient(#fdfeff, #d8e0e4);
+	background-image: -o-linear-gradient(#fdfeff, #d8e0e4);
+	background-image: linear-gradient(#fdfeff, #d8e0e4);
+	border-radius: 3px;
+	color: #074162;
+}
+li a:hover {
+	background-image: -webkit-linear-gradient(#fdfeff, #d8e0e4);
+	background-image: -o-linear-gradient(#fdfeff, #d8e0e4);
+	background-image: linear-gradient(#fdfeff, #d8e0e4);
+	border-radius: 3px;
+	color: #074162;
+}
+
+.content-menu {
+	position: relative;
+	clear: both;
+	background: url(../images/сont-menu-bg.png) repeat;
+	width: 100%;
+	height: 46px;
+	border-radius: 7px 7px 0 0;
+	border-top: 1px solid #f9f9f9;
+	border-bottom: 1px solid #a5a5a5;
+}
+
+#arrow {
+	float: left;
+	margin: 0px 20px 0 50px;
+}
+#home {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	top: 18px;
+	left: 25px;
+}
+.content-menu ul li {
+	font: 400 14px Tahoma;
+	color: #106596;
+	display: inline-block;
+	margin: 6px 0 0 0;
+	text-decoration: underline;
+}
+.content-menu ul li + li:before { 
+	content: url("../images/line.png");
+	padding: 7px;
+}
+
+.content-area {
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+	border-radius: 0 0 7px 7px;
+}
+.content {
+	margin-top: 61px;
+    border-radius: 7px;
+    box-shadow: 3px 2px 14px rgba(0,0,0,0.2);
+}
+
+footer p {
+	margin: 15px 0 0 15px;
+	font: 400 12px Tahoma;
+	color: #5c5c5c;
+}
+
+.o {
+	display: block;
+}
